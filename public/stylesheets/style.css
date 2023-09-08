@@ -1,6 +1,9 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 a {
@@ -17,4 +20,32 @@ a {
 
 .card h3 {
   margin-top: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 25rem;
+}
+
+form label {
+  font-weight: semibold;
+  font-size: large;
+}
+
+form input,
+form textarea {
+  margin-bottom: 1rem;
+}
+
+form textarea {
+  height: 10rem;
+}
+
+form button {
+  height: 2rem;
+  border-radius: 0.5rem;
+  border: 1px solid #aaa;
+  appearance: none;
 }
