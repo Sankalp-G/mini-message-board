@@ -6,3 +6,15 @@ body {
 a {
   color: #00B7FF;
 }
+
+.card {
+  border: 2px solid #aaa;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  width: fit-content;
+}
+
+.card h3 {
+  margin-top: 0;
+}
