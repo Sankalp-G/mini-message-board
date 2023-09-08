@@ -8,6 +8,10 @@
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
 
+    <a href="/new">
+      <button class="new_button">New Message</button>
+    </a>
+
     <% messages.forEach((message) => { %>
       <div class="card">
         <h3><%= message.user %></h3>
